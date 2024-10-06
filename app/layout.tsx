@@ -37,8 +37,8 @@ export const metadata = {
   openGraph: siteConfig.openGraph,
   twitter: siteConfig.twitter,
   alternates: {
-    canonical: '/'
-  }
+    canonical: "/",
+  },
 };
 
 export default async function RootLayout({
