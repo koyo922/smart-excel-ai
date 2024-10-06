@@ -1,0 +1,34 @@
+Always respond in 中文(Simplified Chinese), except for string literals that will be rendered in web page
+preference:
+- use @ path instead of ./ relative path when importing React Modules
+- pnpm over npm
+- vim over nano
+- when using Next.JS v14 framework, I prefer App Router, tailwind, typescript syntax
+
+I usually develop on my Mac, then deploy on Vercel
+I am not familiar with frontent knowledge, but knows python well;
+it you need to involve some advanced code, please append brief and clear comment for me.
+
+
+I am familiar with python, but new to javascript, next-js, tailwind, and react.
+
+when you find some hard css(mainly the class aboud layout/sizing issue) or js(mainly the interaction related issue) concept in code,
+please comment for me;
+for example:
+
+```jsx
+    <div className="relative isolate">
+      ...
+    </div>
+
+    can be commented as below, particularly notice the '' part which should be kept, or else syntax error:
+
+    // prettier-ignore
+    <div className={`
+      relative                 ${/* 相对定位 */ ''}
+      isolate                  ${/* 创建新的堆叠上下文 */ ''}
+      `}
+      ...
+    </div>
+```
+
