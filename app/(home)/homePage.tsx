@@ -36,7 +36,7 @@ export default function HomePage({
   const [boostPackRemainingCredits, setBoostPackRemainingCredits] = useState(0);
   const [content, setContent] = useState("");
   const [language, setLanguage] = useState<LanguageType>("English");
-  const answerRef = useRef<null | HTMLDivElement>(null);
+  const answerRef = useRef<null | HTMLHeadingElement>(null);
 
   const scrollToAnswer = () => {
     if (answerRef.current !== null) {
